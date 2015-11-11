@@ -1,0 +1,12 @@
+{
+  "name": "foreach",
+  "description": "Fast, simple forEach utility",
+  "repository": "git://github.com/micro-js/foreach.git",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "2.x"
+  }
+}
