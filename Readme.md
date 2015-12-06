@@ -1,7 +1,12 @@
 
 # foreach
 
-Fast, simple dependency-free forEach utility
+[![Build status][travis-image]][travis-url]
+[![Git tag][git-image]][git-url]
+[![NPM version][npm-image]][npm-url]
+[![Code style][standard-image]][standard-url]
+
+Fast for each.
 
 ## Installation
 
@@ -9,20 +14,28 @@ Fast, simple dependency-free forEach utility
 
 ## Usage
 
-Works like `forEach` for arrays, but on objects.
+```js
+var foreach = require('@micro-js/foreach')
 
-`forEach(obj, fn, ctx)`
+```
 
-  * `obj` - An object to iterate over
-  * `fn` - The iterator function, receives.  Called like this `fn.call(ctx, obj[key], key)`
-  * `ctx` - Optional context upon which to invoke `fn`
+## API
+
+### foreach(arg)
+
+- `arg` -
+
+**Returns:**
 
 ## License
 
-The MIT License
+MIT
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[travis-image]: https://img.shields.io/travis/micro-js/foreach.svg?style=flat-square
+[travis-url]: https://travis-ci.org/micro-js/foreach
+[git-image]: https://img.shields.io/github/tag/micro-js/foreach.svg
+[git-url]: https://github.com/micro-js/foreach
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[standard-url]: https://github.com/feross/standard
+[npm-image]: https://img.shields.io/npm/v/@micro-js/foreach.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@micro-js/foreach

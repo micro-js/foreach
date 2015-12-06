@@ -1,12 +1,16 @@
 {
   "name": "@micro-js/foreach",
-  "description": "Fast, simple forEach utility",
+  "description": "Fast for each.",
   "repository": "git://github.com/micro-js/foreach.git",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "2.x"
+    "tape": "^4.2.2",
+    "standard": "^5.4.1"
   }
 }
