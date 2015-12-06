@@ -30,11 +30,10 @@ copy // => {a: 1, b: 2}
 
 ## API
 
-### foreach(fn, obj, ctx)
+### foreach(fn, obj)
 
 - `fn` - iterator
 - `obj` - object to iterate over
-- `ctx` - context to use on iterator call
 
 ## License
 
