@@ -1,5 +1,5 @@
 {
-  "name": "foreach",
+  "name": "@micro-js/foreach",
   "description": "Fast, simple forEach utility",
   "repository": "git://github.com/micro-js/foreach.git",
   "version": "0.0.0",

@@ -5,7 +5,7 @@ Fast, simple dependency-free forEach utility
 
 ## Installation
 
-    $ npm install micro-js/foreach
+    $ npm install @micro-js/foreach
 
 ## Usage
 
