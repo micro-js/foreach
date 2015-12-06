@@ -17,15 +17,24 @@ Fast for each.
 ```js
 var foreach = require('@micro-js/foreach')
 
+var obj = {a: 1, b: 2}
+var copy = {}
+
+foreach(function (val, key) {
+  copy[key] = val
+})
+
+copy // => {a: 1, b: 2}
+
 ```
 
 ## API
 
-### foreach(arg)
+### foreach(fn, obj, ctx)
 
-- `arg` -
-
-**Returns:**
+- `fn` - iterator
+- `obj` - object to iterate over
+- `ctx` - context to use on iterator call
 
 ## License
 
