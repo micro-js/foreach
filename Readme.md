@@ -10,12 +10,12 @@ Fast for each.
 
 ## Installation
 
-    $ npm install @micro-js/foreach
+    $ npm install @f/foreach
 
 ## Usage
 
 ```js
-var foreach = require('@micro-js/foreach')
+var foreach = require('@f/foreach')
 
 var obj = {a: 1, b: 2}
 var copy = {}
@@ -45,5 +45,5 @@ MIT
 [git-url]: https://github.com/micro-js/foreach
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/foreach.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/foreach
+[npm-image]: https://img.shields.io/npm/v/@f/foreach.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/foreach
