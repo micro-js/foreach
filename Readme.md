@@ -15,12 +15,12 @@ Fast for each.
 ## Usage
 
 ```js
-var foreach = require('@f/foreach')
+var forEach = require('@f/foreach')
 
 var obj = {a: 1, b: 2}
 var copy = {}
 
-foreach(function (val, key) {
+forEach(function (val, key) {
   copy[key] = val
 }, obj)
 
