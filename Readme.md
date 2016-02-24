@@ -22,7 +22,7 @@ var copy = {}
 
 foreach(function (val, key) {
   copy[key] = val
-})
+}, obj)
 
 copy // => {a: 1, b: 2}
 
